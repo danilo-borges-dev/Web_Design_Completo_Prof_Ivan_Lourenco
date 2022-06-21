@@ -81,10 +81,12 @@ body {
 }
 
 .main {
-    padding-top: 80px;
-    padding-right: 180px;
-    padding-bottom: 80px;
-    padding-left: 100px;
+    padding: 80px 180px 80px 100px;
+}
+
+.main img {
+    float: left;
+    margin-right: 30px;
 }
 
 .main h1 {
@@ -94,9 +96,10 @@ body {
 
 .main h2 {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: normal;
+    margin-top: 40px;
 }
 
 .main h3 {
@@ -109,7 +112,17 @@ body {
     color: silver;
     font-size: 18px;
     font-weight: 100;
-    line-height: 24px;;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.main a {
+    color: #f27609;
+}
+
+.main ul {
+    color: silver;
+    line-height: 30px;
 }
 
 .caminho {
