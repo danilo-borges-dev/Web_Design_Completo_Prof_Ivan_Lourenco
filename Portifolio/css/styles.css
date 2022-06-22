@@ -15,7 +15,7 @@ body {
     height: 50px;
 
     animation-name: navegacao;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 .navigation ul {
@@ -49,6 +49,11 @@ body {
     display: none;
 }
 
+.navigation li.threeline-icon:hover {
+    color: #f27609;
+    cursor: pointer;
+}
+
 .capa {
     color: white;
 }
@@ -70,7 +75,7 @@ body {
     padding-left: 10px;
 
     animation-name: profile-capa;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 
 .profile-pic img {
@@ -85,7 +90,7 @@ body {
     margin-left: -30px;
 
     animation-name: profile-capa;
-    animation-duration: 10s;
+    animation-duration: 7s;
 }
 
 .profile-title h1 {
@@ -170,6 +175,7 @@ body {
 .miniatura {
     width: 549px;
     height: 383px;
+    width: 100%;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -309,6 +315,36 @@ body {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .miniatura {
+        max-width: 100%;
+        background-size: auto 100%;
+    }
+
+    .blackbox {
+        opacity: 0.8;
+    }
+
+    .menu-js {
+        height: auto;
+    }
+
+    .menu-js ul {
+        height: auto;
+        text-align: center;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+    .menu-js li {
+        display: block;
+        border-bottom: solid grey 1px;
+    }
+
+    .foto-trabalhos {
+        max-width: 100%;
+        background-size: auto 100%;
     }
 
 }
