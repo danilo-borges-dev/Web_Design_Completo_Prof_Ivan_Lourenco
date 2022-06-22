@@ -42,6 +42,10 @@ body {
     color: #f27609;
 }
 
+.navigation li.threeline-icon {
+    display: none;
+}
+
 .capa {
     color: white;
 }
